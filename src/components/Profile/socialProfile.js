@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './socialProfileStyles.module.css';
 
 const Profile = ({ avatar, name, tag, location, followers, views, likes }) => (
-    <div class="profile">
+    <div className="profile">
         <div className="description">
             <img
                 src={avatar}
@@ -14,7 +14,7 @@ const Profile = ({ avatar, name, tag, location, followers, views, likes }) => (
             <p className={styles.location}>{location}</p>
         </div>
 
-        <ul class={styles.stats}>
+        <ul className={styles.stats}>
             <li>
                 <span className={styles.label}>Followers</span>
                 <span className="quantity">{followers}</span>
