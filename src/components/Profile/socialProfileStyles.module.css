@@ -1,0 +1,11 @@
+.tag, .location {
+    color: rgb(141, 76, 132);
+    }
+
+    .stats {
+        list-style-type: none;
+           }
+
+    .label {
+margin-right: 50px;
+    }
