@@ -1,0 +1,16 @@
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+.label {
+margin-right: 50px;
+}
+
+.title, .item {
+    color:rgb(95, 12, 81)
+}
+

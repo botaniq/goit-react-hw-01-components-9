@@ -1,0 +1,32 @@
+.statusOffline {
+  background-color: green;
+  border: 0.001px solid #0F1C3F;
+  border-radius: 50%;
+  
+  height: 50px;
+  width: 50px;
+}
+
+.statusOnline {
+  background-color: red;
+  border: 0.001px solid #0F1C3F;
+  border-radius: 50%;
+  
+  height: 50px;
+  width: 50px;
+}
+
+.title {
+     color:rgb(95, 12, 81)
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    }
+
+    .avatar {
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }

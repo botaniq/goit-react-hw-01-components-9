@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './socialProfileStyles.module.css';
 
 const Profile = ({ avatar, name, tag, location, followers, views, likes }) => (
@@ -30,5 +31,18 @@ const Profile = ({ avatar, name, tag, location, followers, views, likes }) => (
         </ul>
     </div>
 );
+
+Profile.defaultProps = {
+    location:'The Earth',
+    
+};
+
+Profile.propTypes = {
+    name: PropTypes.string.isRequired,
+    tag: PropTypes.string.isRequired,
+  followers: PropTypes.number.isRequired,
+    views: PropTypes.number.isRequired,
+  likes: PropTypes.number.isRequired,
+};
 
 export default Profile;
